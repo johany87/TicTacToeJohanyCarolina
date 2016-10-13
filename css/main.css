@@ -2,44 +2,51 @@
   margin: 0;
   padding: 0;
 }
-body{
-  background-color: #A9D0F5;
-}
-#button{
+
+#vertical-line{
   position: absolute;
-  width: 200px;
-  left: 100px;
-  top: 420px;
-  text-align: center;
+  width: 430px;
+  height: 610px;
+  -webkit-box-shadow: 16px 0px 18px -9px rgba(255,255,255,1);
+  -moz-box-shadow: 16px 0px 18px -9px rgba(255,255,255,1);
+  box-shadow: 16px 0px 18px -9px rgba(255,255,255,1);
 }
 #signals{
   position: absolute;
+  top: 380px;
   left: 70px;
   width: 250px;
   height: 100px;
-  border: black 1px solid;
 }
 #h2signals{
+  position: absolute;
   width: 240px;
   height: 90px;
+  color: white;
+  font-family: 'Handlee', cursive;
+  text-align: center;
 }
 #title{
     font-family: 'Kaushan Script', cursive;
+    color: white;
+    text-shadow: black 1px 4px;
+    font-size: 250%;
 }
 
 #left-aside{
-  background: silver;
+  background-color: #9C4941;
   width: 400px;
-  height: 610px;
+  height: 600px;
   padding: 1%;
   display: inline-block;
 }
 #right-div{
   position: absolute;
   display: inline;
-  left: 330px;
-  width: 900px;
-  height: 610px;
+  left: 430px;
+  width: 920px;
+  height: 620px;
+  background-image: url("fondo.jpg");
 }
 #intruccions{
   position: relative;
@@ -49,13 +56,10 @@ body{
   border: black 1px solid;
 }
 #table_option{
-  position: relative;
-  top: 30px;
-  left: 200px;
-  }
-#signals{
   position: absolute;
-}
+  top: 108px;
+  left: 250px;
+  }
 aside h1{
   text-align: center;
 }
@@ -66,13 +70,17 @@ aside h1{
   color: white;
   padding: 1%;
   width: 350px;
+  font-family: 'Handlee', cursive;
+  font-size: 120%;
 }
 .section_symbols{
-  padding: 1%;
+  font-size: 120%;
+  padding: 10%;
   position: relative;
   left: 130px;
   color: white;
   display: inline;
+  font-family: 'Handlee', cursive;
 }
 .names_players{
   display: inline;
@@ -80,15 +88,51 @@ aside h1{
 .symbols_players{
   display: inline;
   font-size: 350%;
-  font-family: 'Satisfy', cursive;
+  color: white;
 }
 .square{
-  font-size: 300%;
+  font-size: 80px;
   border-collapse: separate;
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
 }
-tr, td{
-  border-collapse: separate;
-  border: 1px black solid;
+#p0{
+  border-bottom: 2px solid black;
+}
+#p1, #p7{
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+#p2{
+  border-bottom: 2px solid black;
+}
+#p3, #p5{
+  border-bottom: 2px solid black;
+}
+#p4{
+  border: 2px solid black;
+}
+a {
+	position: relative;
+    color: rgba(255,255,255,1);
+    background-color: #9C4941;
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 130%;
+    display: block;
+    padding: 4px;
+    border-radius: 15px;
+    margin: 100px auto;
+  	width: 160px;
+  	text-align: center;
+    border: 2px white solid;
+}
+a:active {
+    -webkit-box-shadow: 0px 3px 0px #FFFFFF, 0px 3px 6px #FFFFFF;
+    -moz-box-shadow: 0px 3px 0px #FFFFFF, 0px 3px 6px #FFFFFF;
+    box-shadow: 0px 3px 0px #FFFFFF, 0px 3px 6px #FFFFFF;
+    position: relative;
+    top: 6px;
 }

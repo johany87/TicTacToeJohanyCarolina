@@ -4,13 +4,16 @@
   <meta charset="UTF-8">
   <!-- FONTS-->
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
   <!--ENLAZAR ARCHIVOS CSS Y JS -->
   <link rel="stylesheet" href="css/main.css">
   <script type="text/javascript" src="js/main.js"></script>
   <title>Tic Tac Toe</title>
 </head>
 <body>
+  <div id="vertical-line"></div>
   <!-- ASIDE LADO IZQUIERO -->
   <aside id="left-aside">
     <br>
@@ -21,6 +24,7 @@
       <h2 id="name_player1"></h2>
       <h2> Vs.</h2>
       <h2 id="name_player2"></h2>
+      <br> <hr> <br>
     </section>
     <!-- SECTION SYMBOLS -->
     <section class="section_symbols">
@@ -28,19 +32,19 @@
       <h1 id="symbol-"> - </h1>
       <h1 id="symbolO">O</h1>
     </section>
-    <br> <hr> <br> <br>
     <!-- H2 FOR NAMES AND WINNER -->
-    <div id="signals"> Turno de:
+    <div id="signals">
       <h2 id="h2signals"></h2>
     </div>
+    <br><br>
     <!-- RESTAR BUTTON -->
-    <div id="button">
-  		<button type="button" id="again"> Volver a Jugar</button>
+    <div>
+  		<a id="again"> Volver a Jugar!!</a>
   	</div>
   </aside>
   <!-- DIV LADO DERECHO -->
   <div id="right-div">
-    <table id="table_option" cellspacing="70">
+    <table id="table_option" cellspacing="0">
 			<tr>
 				<td class="square" id="p0"></td>
 				<td class="square" id="p1"></td>
