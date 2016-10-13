@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #A9D0F5;
+}
+#button{
+  position: absolute;
+  width: 200px;
+  left: 100px;
+  top: 420px;
+  text-align: center;
+}
+#signals{
+  position: absolute;
+  left: 70px;
+  width: 250px;
+  height: 100px;
+  border: black 1px solid;
+}
+#h2signals{
+  width: 240px;
+  height: 90px;
+}
+#title{
+    font-family: 'Kaushan Script', cursive;
+}
+
+#left-aside{
+  background: silver;
+  width: 400px;
+  height: 610px;
+  padding: 1%;
+  display: inline-block;
+}
+#right-div{
+  position: absolute;
+  display: inline;
+  left: 330px;
+  width: 900px;
+  height: 610px;
+}
+#intruccions{
+  position: relative;
+  left: 100px;
+  width: 200px;
+  height: 100px;
+  border: black 1px solid;
+}
+#table_option{
+  position: relative;
+  top: 30px;
+  left: 200px;
+  }
+#signals{
+  position: absolute;
+}
+aside h1{
+  text-align: center;
+}
+.section_players{
+  position: absolute;
+  display: inline-block;;
+  left: 20px;
+  color: white;
+  padding: 1%;
+  width: 350px;
+}
+.section_symbols{
+  padding: 1%;
+  position: relative;
+  left: 130px;
+  color: white;
+  display: inline;
+}
+.names_players{
+  display: inline;
+}
+.symbols_players{
+  display: inline;
+  font-size: 350%;
+  font-family: 'Satisfy', cursive;
+}
+.square{
+  font-size: 300%;
+  border-collapse: separate;
+  width: 100px;
+  height: 100px;
+}
+tr, td{
+  border-collapse: separate;
+  border: 1px black solid;
+}
